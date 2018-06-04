@@ -8,5 +8,6 @@ function paragraphSelector(){
 }
 
 function lastImageSelector(){
-  return $('img').last
+  let images=$('img')
+  return images.last
 }
